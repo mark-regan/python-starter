@@ -1,2 +1,7 @@
-settings/generic/.secrets.toml
-.env
+# Secret files - DO NOT COMMIT
+.secrets.*
+.env*  # in case you store sensitive keys here
+
+# Cache or generated files
+__pycache__/
+*.py[cod]

@@ -1,0 +1,9 @@
+# Staging environment
+[staging]
+debug = false
+log_level = "INFO"
+
+[staging.jira]
+url = "https://staging-domain.atlassian.net"
+email = "staging@example.com"
+api_token = "staging-api-token" 

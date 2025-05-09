@@ -1,0 +1,9 @@
+# Production environment
+[production]
+debug = false
+log_level = "WARNING"
+
+[production.jira]
+url = "https://prod-domain.atlassian.net"
+email = "prod@example.com"
+api_token = "prod-api-token" 

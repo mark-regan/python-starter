@@ -1,0 +1,7 @@
+# Generic logging configuration
+[default.logging]
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+date_format = "%Y-%m-%d %H:%M:%S"
+file = "logs/app.log"
+max_size = "10MB"
+backup_count = 5 

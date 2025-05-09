@@ -1,0 +1,9 @@
+# Development environment
+[development]
+debug = true
+log_level = "DEBUG"
+
+[development.jira]
+url = "https://dev-domain.atlassian.net"
+email = "dev@example.com"
+api_token = "dev-api-token" 

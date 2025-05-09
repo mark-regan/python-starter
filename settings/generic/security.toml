@@ -1,0 +1,6 @@
+# Generic security configuration
+[default.security]
+token_expiry = 3600  # 1 hour in seconds
+max_retries = 3
+timeout = 30  # seconds
+ssl_verify = true 
